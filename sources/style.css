@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     color: #F9FAF8;
     font-family: 'roboto', 'Open-sans';
 }
@@ -56,10 +55,13 @@ ul {
 }
 
 .placeholder {
-    background-color: grey;
-    display: flex;
-    justify-content: center;
+    background-color: grey; 
+    display: flex; 
+    justify-content: center; 
     text-align: center;
+    align-items: center;
+    height: 150px; 
+    width: 100%; 
 }
 
 .sign-top, .sign-bottom {
@@ -70,6 +72,7 @@ ul {
     background-color: #3882F6;
     color: #F9FAF8;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .sign-top {
@@ -116,4 +119,63 @@ h3 {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    padding: 48px 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.quote-author {
+    width: 60%;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: end;
+
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.call-background {
+    background-color: #3B82F6;
+    border-radius: 10px;
+    padding: 2vw 5vw;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.sign-bottom {
+    border: solid #F2F7FE 2px;
+    border-radius: 4px ;
+    padding: 4px 20px;
+}
+
+h4 {
+    margin: 0;
+}
+
+.signp {
+    margin: 0;
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 24px 0;
 }
